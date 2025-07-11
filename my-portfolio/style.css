@@ -105,7 +105,25 @@ body{
     text-align: center;
     font-size: large;
 }
+.productive{
+    padding: 40px;
+    background-color: white(60 93% 3%);
+    text-align: center;
+}
+.productive .productive-sec{
+   padding: 20px;
+    background-color: #f1f1ec;
+    width: 800px;
+    margin-left: 150px;
+   
+    border-radius: 8px;
+   
+  
+}
+
+
 .rising-bar ul{
+     
       display: flex;
       justify-content: space-between;
       text-align: center;
@@ -115,7 +133,9 @@ body{
     list-style: none;
 }
 .rising-bar ul li a{
+    
     text-decoration: none;
+    color: rgb(82, 82, 201);
 }
 .rising-bar ul li span{
     font-size: 40px;
